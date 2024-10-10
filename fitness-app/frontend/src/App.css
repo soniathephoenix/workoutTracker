@@ -1,0 +1,111 @@
+
+
+/* Body */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+/* Main container for the app */
+.container {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  margin: 20px auto;
+  box-sizing: border-box;
+  border: 2px solid #007BFF; /* Blue border */
+}
+
+/* App title */
+h1 {
+  color: #007BFF; /* Blue title */
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Input fields */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+/* Add/Update button */
+button {
+  background-color: #28a745; /* Green button */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+/* Workout list */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #e9f7fe; /* Light blue background */
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Exercise name */
+li strong {
+  color: #007BFF; /* Blue exercise name */
+}
+
+/* Edit button */
+button.edit-btn {
+  background-color: #17a2b8; /* Blueish button for edit */
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button.edit-btn:hover {
+  background-color: #138496; /* Darker blue on hover */
+}
+
+/* Delete button */
+button.delete-btn {
+  background-color: #dc3545; /* Red button for delete */
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button.delete-btn:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
